@@ -221,60 +221,36 @@ ul.chevron .submenu > a:after, ul.chevron .sub-submenu > a:after,ul.chevron .asi
   float:left;
   position:relative;
 } 
-.s-1 {width:8.3333%;}
-.s-2 {width:16.6666%;}
-.s-five {width:16.6666%;}
-.s-3 {width:25%;}
-.s-4 {width:33.3333%;}
-.s-5 {width:41.6666%;}
-.s-6 {width:50%;}
-.s-7 {width:58.3333%;}
-.s-8 {width:66.6666%;}
-.s-9 {width:75%;}
-.s-10 {width:83.3333%;}
-.s-11 {width:90%;}
-.s-12 {width:100%;}
+
 .margin > .s-1,.margin > .s-2,.margin > .s-five,.margin > .s-3,.margin > .s-4,.margin > .s-5,.margin > .s-6,.margin > .s-7,.margin > .s-8,.margin > .s-9,.margin > .s-10,.margin > .s-11,.margin > .s-12,
 .margin > .l-1,.margin > .l-2,.margin > .l-five,.margin > .l-3,.margin > .l-4,.margin > .l-5,.margin > .l-6,.margin > .l-7,.margin > .l-8,.margin > .l-9,.margin > .l-10,.margin > .l-11,.margin > .l-12 {padding:0 0.625em;}
-.margin > .s-1 {width:8.3333%;}
-.margin > .s-2 {width:16.6666%;}
-.margin > .s-five {width:20%;}
-.margin > .s-3 {width:25%;}
-.margin > .s-4 {width:33.3333%;}
-.margin > .s-5 {width:41.6666%;}
-.margin > .s-6 {width:50%;}
-.margin > .s-7 {width:58.3333%;}
-.margin > .s-8 {width:66.6666%;}
-.margin > .s-9 {width:75%;}
-.margin > .s-10 {width:83.3333%;}
-.margin > .s-11 {width:90%;}
-.margin > .s-12 {width:100%;}
+.s-1,
 .l-1 {width:8.3333%;}
+.s-2,
 .l-2 {width:16.6666%;}
+.s-five,
 .l-five {width:20%;}
+.s-3,
 .l-3 {width:25%;}
+.s-4,
 .l-4 {width:33.3333%;}
+.s-5,
 .l-5 {width:41.6666%;}
+.s-6,
 .l-6 {width:50%;}
+.s-7,
 .l-7 {width:58.3333%;}
+.s-8,
 .l-8 {width:66.6666%;}
+.s-9,
 .l-9 {width:75%;}
+.s-10,
 .l-10 {width:83.3333%;}
+.s-11,
 .l-11 {width:90%;}
-.l-12 {clear:left;width:100%;}
-.margin > .l-1 {width:8.3333%;}
-.margin > .l-2 {width:16.6666%;}
-.margin > .l-five {width:20%;}
-.margin > .l-3 {width:25%;}
-.margin > .l-4 {width:33.3333%;}
-.margin > .l-5 {width:41.6666%;}
-.margin > .l-6 {width:50%;}
-.margin > .l-7 {width:58.3333%;}
-.margin > .l-8 {width:66.6666%;}
-.margin > .l-9 {width:75%;}
-.margin > .l-10 {width:83.3333%;}
-.margin > .l-11 {width:90%;}
-.margin > .l-12 {width:100%;}
+.s-12,
+.l-12 {width:100%;}
+
 .right {float:right;} 
 @media screen and (max-width:800px) {
 .size-960 {max-width:800px;}
