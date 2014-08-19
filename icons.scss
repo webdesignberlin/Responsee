@@ -1,0 +1,189 @@
+/* + Icon font - MFG labs */
+@font-face {
+    font-family: 'mfg';
+    src: url('../font/mfglabsiconset-webfont.eot');
+    src: url('../font/mfglabsiconset-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../font/mfglabsiconset-webfont.woff') format('woff'),
+    url('../font/mfglabsiconset-webfont.ttf') format('truetype'),
+    url('../font/mfglabsiconset-webfont.svg#mfg_labs_iconsetregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.icon {
+    font-family: 'mfg';
+    font-size: 1em;
+    font-style: normal;
+    font-weight: normal;
+    color:#e3e3e3;
+    &2x {font-size: 2em;}
+    &3x {font-size: 3em;}
+
+    // Icons:
+    &-cloud:before  {content: "\2601";}
+    &-at:before  {content: "\0040";}
+    &-plus:before   {content: "\002B";}
+    &-minus:before  {content: "\2212";}
+    &-arrow_up:before  {content:  "\2191";}
+    &-arrow_down:before   {content:  "\2193";}
+    &-arrow_right:before  {content:  "\2192";}
+    &-arrow_left:before   {content:  "\2190";}
+    &-chevron_down:before    {content:  "\f004";}
+    &-chevron_up:before   {content:  "\f005";}
+    &-chevron_right:before   {content:  "\f006";}
+    &-chevron_left:before    {content:  "\f007";}
+    &-reorder:before   {content:  "\f008";}
+    &-list:before   {content: "\f009";}
+    &-reorder_square:before  {content:  "\f00a";}
+    &-reorder_square_line:before  {content: "\f00b";}
+    &-coverflow:before  {content:  "\f00c";}
+    &-coverflow_line:before  {content:  "\f00d";}
+    &-pause:before  {content: "\f00e";}
+    &-play:before   {content: "\f00f";}
+    &-step_forward:before    {content:  "\f010";}
+    &-step_backward:before   {content:  "\f011";}
+    &-fast_forward:before    {content:  "\f012";}
+    &-fast_backward:before   {content:  "\f013";}
+    &-cloud_upload:before    {content:  "\f014";}
+    &-cloud_download:before  {content:  "\f015";}
+    &-data_science:before    {content:  "\f016";}
+    &-data_science_black:before   {content: "\f017";}
+    &-globe:before  {content: "\f018";}
+    &-globe_black:before  {content:  "\f019";}
+    &-math_ico:before  {content:  "\f01a";}
+    &-math:before   {content: "\f01b";}
+    &-math_black:before   {content:  "\f01c";}
+    &-paperplane_ico:before  {content:  "\f01d";}
+    &-paperplane:before   {content:  "\f01e";}
+    &-paperplane_black:before   {content:  "\f01f";}
+    &-color_balance:before   {content:  "\f020"; /* \f020 doesn't work in Safari. all shifted one down */ }
+    &-star:before   {content: "\2605";}
+    &-star_half:before  {content:  "\f022";}
+    &-star_empty:before   {content:  "\2606";}
+    &-star_half_empty:before {content:  "\f024";}
+    &-reload:before {content:  "\f025";}
+    &-heart:before  {content: "\2665";}
+    &-heart_broken:before    {content:  "\f028";}
+    &-hashtag:before   {content:  "\f029";}
+    &-reply:before  {content: "\f02a";}
+    &-retweet:before   {content:  "\f02b";}
+    &-signin:before {content:  "\f02c";}
+    &-signout:before   {content:  "\f02d";}
+    &-download:before  {content:  "\f02e";}
+    &-upload:before {content:  "\f02f";}
+    &-placepin:before  {content:  "\f031";}
+    &-display_screen:before  {content:  "\f032";}
+    &-tablet:before {content:  "\f033";}
+    &-smartphone:before   {content:  "\f034";}
+    &-connected_object:before   {content:  "\f035";}
+    &-lock:before   {content: "\F512";}
+    &-unlock:before {content:  "\F513";}
+    &-camera:before {content:  "\F4F7";}
+    &-isight:before {content:  "\f039";}
+    &-video_camera:before    {content:  "\f03a";}
+    &-random:before {content:  "\f03b";}
+    &-message:before   {content:  "\F4AC";}
+    &-discussion:before   {content:  "\f03d";}
+    &-calendar:before  {content:  "\F4C5";}
+    &-ringbell:before  {content:  "\f03f";}
+    &-movie:before  {content: "\f040";}
+    &-mail:before   {content: "\2709";}
+    &-pen:before {content: "\270F";}
+    &-settings:before  {content:  "\9881";}
+    &-measure:before   {content:  "\f044";}
+    &-vector:before {content:  "\f045";}
+    &-vector_pen:before   {content:  "\2712";}
+    &-mute_on:before   {content:  "\f047";}
+    &-mute_off:before  {content:  "\f048";}
+    &-home:before   {content: "\2302";}
+    &-sheet:before  {content: "\f04a";}
+    &-arrow_big_right:before {content:  "\21C9";}
+    &-arrow_big_left:before  {content:  "\21C7";}
+    &-arrow_big_down:before  {content:  "\21CA";}
+    &-arrow_big_up:before    {content:  "\21C8";}
+    &-dribbble_circle:before {content:  "\f04f";}
+    &-dribbble:before  {content:  "\f050";}
+    &-facebook_circle:before {content:  "\f051";}
+    &-facebook:before  {content:  "\f052";}
+    &-git_circle_alt:before  {content:  "\f053";}
+    &-git_circle:before   {content:  "\f054";}
+    &-git:before {content: "\f055";}
+    &-octopus:before   {content:  "\f056";}
+    &-twitter_circle:before  {content:  "\f057";}
+    &-twitter:before   {content:  "\f058";}
+    &-google_plus_circle:before   {content: "\f059";}
+    &-google_plus:before  {content:  "\f05a";}
+    &-linked_in_circle:before   {content:  "\f05b";}
+    &-linked_in:before  {content:  "\f05c";}
+    &-instagram:before  {content:  "\f05d";}
+    &-instagram_circle:before   {content:  "\f05e";}
+    &-mfg_icon:before  {content:  "\f05f";}
+    &-mfg_icon_circle:before {content:  "\f060";}
+    &-user:before   {content: "\f061";}
+    &-user_male:before  {content:  "\f062";}
+    &-user_female:before  {content:  "\f063";}
+    &-users:before  {content: "\f064";}
+    &-file_open:before  {content:  "\F4C2";}
+    &-file_close:before   {content:  "\f067";}
+    &-file_alt:before  {content:  "\f068";}
+    &-file_close_alt:before  {content:  "\f069";}
+    &-attachment:before   {content:  "\f06a";}
+    &-check:before  {content: "\2713";}
+    &-cross_mark:before   {content:  "\274C";}
+    &-cancel_circle:before   {content:  "\F06E";}
+    &-check_circle:before    {content:  "\f06d";}
+    &-magnifying:before   {content:  "\F50D";}
+    &-inbox:before  {content: "\f070";}
+    &-clock:before  {content: "\23F2";}
+    &-stopwatch:before  {content:  "\23F1";}
+    &-hourglass:before  {content:  "\231B";}
+    &-trophy:before {content:  "\f074";}
+    &-unlock_alt:before   {content:  "\F075";}
+    &-lock_alt:before  {content:  "\F510";}
+    &-arrow_doubled_right:before  {content: "\21D2";}
+    &-arrow_doubled_left:before   {content: "\21D0";}
+    &-arrow_doubled_down:before   {content: "\21D3";}
+    &-arrow_doubled_up:before   {content:  "\21D1";}
+    &-link:before   {content: "\f07B";}
+    &-warning:before   {content:  "\2757";}
+    &-warning_alt:before  {content:  "\2755";}
+    &-magnifying_plus:before {content:  "\f07E";}
+    &-magnifying_minus:before   {content:  "\f07F";}
+    &-white_question:before  {content:  "\2754";}
+    &-black_question:before  {content:  "\2753";}
+    &-stop:before   {content: "\f080";}
+    &-share:before  {content: "\f081";}
+    &-eye:before {content: "\f082";}
+    &-trash_can:before  {content:  "\f083";}
+    &-hard_drive:before   {content:  "\f084";}
+    &-information_black:before  {content:  "\f085";}
+    &-information_white:before  {content:  "\f086";}
+    &-printer:before   {content:  "\f087";}
+    &-letter:before {content:  "\f088";}
+    &-soundcloud:before   {content:  "\f089";}
+    &-soundcloud_circle:before  {content:  "\f08A";}
+    &-anchor:before {content:  "\2693";}
+    &-female_sign:before  {content:  "\2640";}
+    &-male_sign:before  {content:  "\2642";}
+    &-joystick:before  {content:  "\F514";}
+    &-high_voltage:before    {content:  "\26A1";}
+    &-fire:before   {content: "\F525";}
+    &-newspaper:before  {content:  "\F4F0";}
+    &-chart:before  {content: "\F526";}
+    &-spread:before {content:  "\F527";}
+    &-spinner_1:before  {content:  "\F528";}
+    &-spinner_2:before  {content:  "\F529";}
+    &-chart_alt:before  {content:  "\F530";}
+    &-label:before  {content: "\F531";}
+}
+
+
+.gradient {
+    color: #999999;
+    text-shadow: 1px 1px 1px rgba(27, 27, 27, 0.19);
+    transition: all 0.1s ease-in-out 0s;
+    &:hover,
+    &.current {
+        color: #EEEEEE;
+        text-shadow: 0 0 3px rgba(255, 255, 255, 0.25);
+    }
+}

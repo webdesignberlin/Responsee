@@ -1,0 +1,60 @@
+/* + Custom forms */
+.form {
+    input, 
+    select, 
+    textarea, 
+    button {
+        font-size:0.9em;
+        font-family:inherit;
+        margin-bottom:1.25em;
+    }
+    input, 
+    select { 
+        height:2.7em; 
+    }
+    input, 
+    select, 
+    textarea {
+        background: none repeat scroll 0 0 #F5F5F5;
+        transition: background 0.20s linear 0s;
+        border: 1px solid #E0E0E0;
+        padding: 0.625em;
+        width: 100%;
+        &:hover, &:focus {
+            background: none repeat scroll 0 0 #fff;
+        }
+    }
+    input {
+        &[type="file"] {
+            border: 1px solid #E0E0E0;
+            height: auto;
+            max-height: 2.7em;
+            min-height: 2.7em;
+            padding: 0.4em;
+            width: 100%;
+        }
+        &[type="radio"], 
+        &[type="checkbox"] {
+            margin-right: 0.625em;
+            width:auto;
+            padding:0;
+            height:auto;
+        }
+    }
+    option { padding: 0.625em; }
+    select[multiple="multiple"] {height: auto;}
+    button {
+        width: 100%;
+        background: none repeat scroll 0 0 #444;
+        border: 0 none;
+        color: #FFF;
+        height: 2.7em;
+        padding: 0.625em;
+        cursor:pointer;
+        width: 100%;
+        transition: background 0.20s linear 0s;
+        &:focus,
+        &:hover {background: none repeat scroll 0 0 #666666;}
+    }
+}
+/* = Custom forms */
